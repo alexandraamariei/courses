@@ -6,6 +6,8 @@ from sensor_msgs.msg import LaserScan
 # import Quality of Service library, to set the correct profile and reliability in order to read sensor data.
 from rclpy.qos import ReliabilityPolicy, QoSProfile
 
+
+
 class SimpleSubscriber(Node):
 
     def __init__(self):
